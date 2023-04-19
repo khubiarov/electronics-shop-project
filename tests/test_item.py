@@ -18,3 +18,9 @@ def test_apply_discount(test_shop):
     test_shop.pay_rate = 0.5
     assert test_shop.apply_discount() == 50
 
+def test__str(test_shop):
+    assert test_shop.__str__() == 'acer'
+
+def test__repr(test_shop):
+    assert test_shop.__repr__() == "Item('acer', 100, 5)"
+
