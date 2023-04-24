@@ -28,6 +28,6 @@ class Phone(Item):
 
         else:
 
-             raise ValueError('ОШибка')
+             raise ValueError('Количество физических SIM-карт должно быть целым числом больше нуля.')
 
 
