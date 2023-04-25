@@ -80,4 +80,4 @@ class Item:
 
             return self.quantity + other.quantity
         else:
-            raise TypeError
+            raise TypeError('Класс не настледован от Item')
